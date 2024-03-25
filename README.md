@@ -1,2 +1,3 @@
 # leetcode
-leet code practice
+
+leetcode 刷题记录

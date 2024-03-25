@@ -10,8 +10,9 @@
  * @return {number}
  */
 var lengthOfLastWord = function (s) {
-  const arr = s.split(" ").reverse();
-  for (let i = 0; i < arr.length; i++) {
+  // 按照空格分割字符串
+  const arr = s.split(" ");
+  for (let i = arr.length - 1; i > 0; i--) {
     if (arr[i] && arr[i].length) {
       return arr[i].length;
     }
