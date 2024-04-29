@@ -10,6 +10,9 @@
  * @param {string} b
  * @return {string}
  */
+/**
+ * 二进制求值就是大于2则进1, 二进制可以将字符串切割后反过来计算
+ */
 var addBinary = function (a, b) {
   const aArr = a.split("").reverse();
   const bArr = b.split("").reverse();

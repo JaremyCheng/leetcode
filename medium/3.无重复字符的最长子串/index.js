@@ -9,6 +9,12 @@
  * @param {string} s
  * @return {number}
  */
+/**
+ * 双指针
+ * 指针为开头和向右匹配
+ * 匹配到重复的则移动开头指针重新向右匹配
+ * 最后获得最长的字符串
+ */
 var lengthOfLongestSubstring = function (s) {
   const len = s.length;
   let checkObj = [];

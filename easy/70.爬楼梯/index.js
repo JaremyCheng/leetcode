@@ -9,6 +9,11 @@
  * @param {number} n
  * @return {number}
  */
+/**
+ * 斐波那契数列
+ * 11235
+ * 规律是后一个数字等于前两个数字之和
+ */
 var climbStairs = function (n) {
   // 斐波那契数列
   let a = (b = 1);

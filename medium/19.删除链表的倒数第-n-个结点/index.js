@@ -17,6 +17,10 @@
  * @param {number} n
  * @return {ListNode}
  */
+/**
+ * fast用于循环, slow在位置到达n时, 会更改为n位置的节点
+ * 最后将下一节点直接替换掉为下下个节点来进行节点删除
+ */
 var removeNthFromEnd = function (head, n) {
   let newHead = { val: 666, next: head };
   let slow = (fast = newHead);
